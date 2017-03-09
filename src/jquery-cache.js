@@ -27,7 +27,9 @@
 
 }(this, function(exports, $) {
 
-    var cache = {};
+    var
+    lib   = window.jQuery || window.Zepto || window.ender || window.$,
+    cache = {};
 
     function get(selector, requery) {
         if (typeof requery === 'undefined') {
@@ -36,12 +38,12 @@
 
         if (typeof cache[selector] === 'undefined' ||
             ( typeof requery !== 'undefined' && requery) ) {
-            cache[selector] = $(selector);
+            cache[selector] = lib(selector);
         }
 
         return cache[selector];
     }
 
-    exports.$$ = get;
+    exports.$ = get;
     return get;
 }));

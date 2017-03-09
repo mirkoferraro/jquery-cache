@@ -10297,19 +10297,19 @@ return jQuery;
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!function(e,n){if(true)!(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports,__webpack_require__(0)], __WEBPACK_AMD_DEFINE_RESULT__ = function(e,r){return n(e,r)}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else if("undefined"!=typeof exports){var r=require("jquery");n(exports,r)}else n(e,e.jQuery||e.Zepto||e.ender||e.$)}(this,function(e,n){function r(e,r){return void 0===r&&(r=!1),(void 0===i[e]||void 0!==r&&r)&&(i[e]=n(e)),i[e]}var i={};return e.$$=r,r});
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!function(e,o){if(true)!(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports,__webpack_require__(0)], __WEBPACK_AMD_DEFINE_RESULT__ = function(e,n){return o(e,n)}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else if("undefined"!=typeof exports){var n=require("jquery");o(exports,n)}else o(e,e.jQuery||e.Zepto||e.ender||e.$)}(this,function(e,o){function n(e,o){return void 0===o&&(o=!1),(void 0===i[e]||void 0!==o&&o)&&(console.log("create selector"),i[e]=r(e)),console.log("load from cache"),i[e]}var r=window.jQuery||window.Zepto||window.ender||window.$,i={};return e.$=n,n});
 
 /***/ }),
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 window.$ = window.jQuery = __webpack_require__(0)
-window.$$ = __webpack_require__(1)
+window.$ = window.$$ = __webpack_require__(1)
 
-$$('body').append('<p>Text printed with jQuery Cache Plugin</p>')
-$$('body').append('<p>Text printed with jQuery Cache Plugin</p>')
-$$('body').append('<p>Text printed with jQuery Cache Plugin</p>')
+$('body').append('<p>Text printed with jQuery Cache Plugin</p>')
+$('body').append('<p>Text printed with jQuery Cache Plugin</p>')
+$('body').append('<p>Text printed with jQuery Cache Plugin</p>')
 
 /***/ })
 /******/ ]);
