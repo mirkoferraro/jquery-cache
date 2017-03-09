@@ -1,0 +1,29 @@
+{
+  "name": "jquery-cache",
+  "version": "1.0.0",
+  "description": "jQuery plugin prividing selector cache",
+  "main": "dist/jquery-cache.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirkoferraro/jquery-cache.git"
+  },
+  "keywords": [
+    "jquery",
+    "cache"
+  ],
+  "author": "Mirko Ferraro <mirkoferraro@gmail.com> (http://mirkoferraro.it)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mirkoferraro/jquery-cache/issues"
+  },
+  "homepage": "https://github.com/mirkoferraro/jquery-cache#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.1.1",
+    "webpack": "^2.2.1"
+  }
+}
