@@ -1,6 +1,6 @@
 {
   "name": "jquery-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jQuery plugin providing selector cache",
   "main": "dist/jquery-cache.min.js",
   "repository": {
